@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema Solar</title>
+    <style>
+        body{
+            background-color: black;
+            color: white;
+        }
+
+        h1{
+            text-align: center;
+            font-family: sans-serif;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Sistema Solar</h1>
+    
+    <svg version="1.1" xlink:href="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1280" height="960">
+   
+    <path class="st0" d="M789.4,254.2c3.8,46.6-65,93.8-154,105.2c-88.8,11.6-164-17.1-167.8-63.7c-3.8-46.6,65-93.8,154-105.2
+	C710.5,179.1,785.6,207.5,789.4,254.2z" id="mercury" fill="none"/>
+
+    <path class="st0" d="M843.3,263.8c5.4,65.9-86.1,132.1-204.3,147.6c-118.3,15.3-218.5-25.5-223.9-91.7s86.1-132.1,204.3-147.6
+	S837.9,197.6,843.3,263.8z" fill="none" id="venus"/>
+
+    <path class="st0" d="M887.7,273.4c7.1,84.9-102.5,168.7-244.6,186.9s-263-35.9-270.1-120.8c-7.1-84.9,102.5-168.7,244.6-186.9
+	S880.6,188.4,887.7,273.4z" fill="none" id="earth"/>
+
+    <path class="st0" d="M931.3,290.1c8.9,107.3-118,211.6-283.3,232.8c-165.4,21.2-306.6-48.6-315.5-155.8s118-211.6,283.3-232.8
+	S922.4,182.6,931.3,290.1z" fill="none" id="mars"/>
+
+    <path class="st0" d="M981.9,310c10.4,129.3-137.1,254.9-329.7,280.2s-357.1-59-367.5-188.3S421.8,147,614.4,121.7
+	C806.8,96.2,971.4,180.7,981.9,310z" fill="none" id="jupiter"/>
+
+    <path class="st0" d="M1051.2,331.9c12.2,154-164.4,304.1-394.1,335.2C427.3,698.2,231.2,598.4,219,444.2s164.2-304.1,394.1-335
+	S1039,178,1051.2,331.9z" fill="none" id="saturn"/>
+
+    <path class="st0" d="M1126,360.1c14.2,183.1-192.7,361.3-462.6,397.8s-500-82-514.2-265.2S342,131.7,611.6,94.9
+	S1111.6,176.9,1126,360.1z" fill="none" id="uranus"/>
+
+    <path class="st0" d="M1222,398.5c17,220.8-229.5,435.8-550.5,480.2c-321,44.5-595.1-98.7-612.1-319.6S289,123.3,610,78.9
+	S1205,177.5,1222,398.5z" fill="none" id="neptune"/>
+
+
+    <image xlink:href="planets/space.jpg"/>
+
+    <image xlink:href="planets/sun.png" width="200" height="200" x="537" y="200"/>
+
+
+        <image xlink:href="planets/mercury.png" width="50" height="44" x="-25" y="-22">
+            <animateMotion dur="2s" repeatCount="indefinite">
+                <mpath xlink:href="#mercury"/>
+            </animateMotion>
+        </image>
+
+        <image xlink:href="planets/venus.png" width="60" height="60" x="-30" y="-30">
+            <animateMotion dur="5s" repeatCount="indefinite">
+                <mpath xlink:href="#venus"/>
+            </animateMotion>
+        </image>
+
+        <image xlink:href="planets/earth.png" width="60" height="59" x="-30" y="-29.5">
+            <animateMotion dur="9s" repeatCount="indefinite">
+                <mpath xlink:href="#earth"/>
+            </animateMotion>
+        </image>
+
+        <image xlink:href="planets/mars.png" width="55" height="49" x="-27.5" y="-24.5">
+            <animateMotion dur="12s" repeatCount="indefinite">
+                <mpath xlink:href="#mars"/>
+            </animateMotion>
+        </image>
+
+        <image xlink:href="planets/jupiter.png" width="100" height="100" x="-50" y="-50">
+            <animateMotion dur="14s" repeatCount="indefinite">
+                <mpath xlink:href="#jupiter"/>
+            </animateMotion>
+        </image>
+
+        <image xlink:href="planets/saturn.png" width="120" height="110" x="-60" y="-55">
+            <animateMotion dur="16s" repeatCount="indefinite">
+                <mpath xlink:href="#saturn"/>
+            </animateMotion>
+        </image>
+
+        <image xlink:href="planets/uranus.png" width="220" height="52" x="-110" y="-26">
+            <animateMotion dur="20s" repeatCount="indefinite">
+                <mpath xlink:href="#uranus"/>
+            </animateMotion>
+        </image>
+
+        <image xlink:href="planets/neptune.png" width="55" height="55" x="-27.5" y="-27.5">
+            <animateMotion dur="26s" repeatCount="indefinite">
+                <mpath xlink:href="#neptune"/>
+            </animateMotion>
+        </image>
+
+
+
+    </svg>        
+</body>
+</html>
